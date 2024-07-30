@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;   
+    background-color: #1f2937;
+    height: 100px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.Upper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color:#1f2937;
+    color: white;
+    padding: 16px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text{
+    max-width: 300px;
+}
+
+button.second {
+    border: 2px solid #E5E7EB;
+
+}
+
+.lowest{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.h1{
+    font-size: 24px ;
+    font-weight: 700;
+}
+.t1{
+    font-size: 16px;
+}
+button{
+    cursor:pointer;
+    font-size: 24px;
+    background-color:  #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+.top{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stoned{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+}
+.space,.mind,.reality,.power,.soul,.time{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.logo img{
+    width: 50px;
+    padding: 15px;
+    height: 50px;;
+}
+
+.time img{
+    width: 150px;
+    height: 150px;
+}
+.space img{
+    width: 150px;
+    height: 150px;
+}
+.mind img{
+    width: 150px;
+    height: 150px;
+}
+.reality img{
+    width: 150px;
+    height: 150px;
+}
+.power img{
+    width: 150px;
+    height: 150px;
+}
+.soul img{
+    width: 150px;
+    height: 150px;
+}
+
+.bottom{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+
+
+}
+.heading{
+   font-size: 36px;
+   font-weight: bolder;
+}
+
+.footer{
+    flex-shrink: 0;
+    margin-top: auto;
+    display: flex;
+    background-color: #1f2937;
+    height: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.header-links{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px; 
+}
+
