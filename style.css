@@ -216,3 +216,6 @@ ul{
     gap: 16px; 
 }
 
+.space,.reality,.power,.mind,.soul,.time{
+    cursor: pointer;
+}
